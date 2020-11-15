@@ -1,0 +1,212 @@
+body {
+margin: 0;
+padding: 0;
+text-align: center;
+background:url(picture/back9.jpg) no-repeat center center fixed;
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+line-height: 20px;
+}
+
+
+label {
+  font-size: 12px;
+
+}
+
+.contact-form {
+  background-color: transparent;
+  width: 500px;
+  height: 550px;
+  border: 2px black solid;
+  margin-left: 820px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.contact-title h1{
+  padding-left: 90px;
+}
+.contact-title h2{
+  padding-left: 180px;
+}
+
+.border {
+  margin-left: 50px;
+  margin-bottom: 16px;
+  border: 1px black solid;
+  width: 170px;
+  padding: 3px;
+}
+
+.border:hover {
+  border:1px solid gray;
+}
+
+.bloc {
+  padding-left: 20px;
+}
+
+.gender-container {
+  padding-left: 140px;
+  margin-bottom: 16px;
+  padding-left: 40px;
+  border: 1px black solid;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.gender-container:hover {
+  border:1px solid gray;
+}
+
+.name-container {
+  padding-left: 45px;
+}
+
+input[type=text]{
+  width: 370px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color:#000;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input[type=text]:hover {
+  border:1px solid gray;
+}
+
+.email-container {
+  padding-left: 40px;
+}
+
+input[type=email]{
+  width: 370px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color:#000;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input[type=email]:hover {
+  border:1px solid gray;
+}
+
+.phone-container {
+  padding-left: 47px;
+}
+
+input[type=tel]{
+  width: 370px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border:1px dotted blue;
+  color:#000;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input[type=tel]:hover {
+  border:1px solid gray;
+}
+
+.url-container {
+  padding-left: 42px;
+}
+
+input[type=url]{
+  width: 370px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color:#000;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input[type=url]:hover {
+  border:1px solid gray;
+}
+
+.date-container {
+  padding-left: 43px;
+}
+
+input[type=date]{
+  width: 370px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border:1px dotted blue;
+  color:#000;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input[type=date]:hover {
+  border:1px solid gray;
+}
+
+.checkbox-container {
+display:flex;
+margin-left: 25px;
+border:1px solid black;
+width: 450px;
+}
+
+.checkbox-container:hover {
+  border:1px solid gray;
+}
+
+span {
+  font-size: 12px;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+input[type=checkbox]{
+  width: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color:#fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.submit-container {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+
+input[type=submit]{
+  width: 300px;
+  background: transparent;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0px #aaa;
+  outline: none;
+  color:#000;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input[type=submit]:hover {
+  border:1px solid white;
+  background-color: black;
+  color:#fff;
+}
+
+
+  /* form .submit {
+    background: #000;
+  }  */
